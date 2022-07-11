@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-pro-blue text-white rounded uppercase px-8 py-4;
+  }
+  .yBox {
+    @apply bg-pro-blue w-[2px] h-20 absolute;
+  }
+  .xBox {
+    @apply bg-pro-blue w-20 h-[2px] absolute;
+  }
+  .between {
+    @apply mx-auto bg-pro-blue w-[230px] h-[120px];
+  }
+  .mainComponent {
+    @apply mx-auto px-10 py-8  border-pro-blue rounded border-8 w-[1160px] h-[90vh];
+  }
+  .card {
+    @apply grid grid-cols-4 gap-4 -mt-[140px] bg-white;
+  }
+  .subCard {
+    @apply shadow-xl w-full h-[300px];
+  }
+  .mainHeading {
+    @apply text-pro-blue text-5xl font-extrabold;
+  }
+}
