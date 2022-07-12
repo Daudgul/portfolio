@@ -12,7 +12,7 @@
 
 @layer components {
   .btn {
-    @apply bg-pro-blue text-white rounded uppercase px-8 py-4;
+    @apply bg-pro-blue text-white rounded uppercase px-8 py-4 hover:bg-gray-600 duration-75 hover:shadow-xl;
   }
   .yBox {
     @apply bg-pro-blue w-[2px] h-20 absolute;
@@ -27,12 +27,24 @@
     @apply mx-auto px-10 py-8  border-pro-blue rounded border-8 w-[1160px] h-[90vh];
   }
   .card {
-    @apply grid grid-cols-4 gap-4 -mt-[140px] bg-white;
+    @apply grid grid-cols-4 gap-4 -mt-[20vh] rounded-md;
   }
   .subCard {
-    @apply shadow-xl w-full h-[300px];
+    @apply shadow-xl w-full p-4 flex flex-col justify-between text-center text-pro-blue  h-[40vh] hover:scale-105 hover:shadow-2xl duration-500  bg-white cursor-pointer;
   }
   .mainHeading {
     @apply text-pro-blue text-5xl font-extrabold;
+  }
+  .gitIcon {
+    @apply flex text-pro-blue justify-end text-3xl hover:scale-105 duration-500 space-x-2;
+  }
+  .skills {
+    @apply flex items-center space-x-8;
+  }
+  .conDtl {
+    @apply text-xl text-gray-300 font-bold mt-4;
+  }
+  .navItem {
+    @apply text-xl font-bold text-pro-blue hover:scale-105 duration-300 cursor-pointer hover:underline underline-offset-4;
   }
 }

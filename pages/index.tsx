@@ -4,6 +4,7 @@ import Image from "next/image";
 import SectionOne from "../components/SectionOne";
 import SectionThree from "../components/SectionThree";
 import SectionTwo from "../components/SectionTwo";
+import SectionFour from "../components/SectionFour";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </>
   );
 };
