@@ -4,15 +4,13 @@ const SectionFour = () => {
   return (
     <>
       <section id="section-four" className="w-full mb-16 ">
-        <div className="  mainComponent p-10">
-          <div className="bg-pro-gray w-full h-full px-16 py-10">
-            <div className="grid grid-cols-2 w-full h-full  overflow-hidden">
+        <div className="  mainComponent sm:p-10">
+          <div className="bg-pro-gray w-full h-full sm:px-16 sm:py-10 p-4">
+            <div className="grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 w-full h-full  overflow-hidden">
               <div className="w-full flex flex-col justify-between">
-                <h1 className="text-pro-blue text-5xl font-extrabold">
-                  More About me
-                </h1>
+                <h1 className="mainHeading">More About me</h1>
                 <div>
-                  <h3 className="text-lg font-bold mb-8 mr-8">
+                  <h3 className=" text-sm lg:text-lg font-bold mt-6 mb-8 mr-8">
                     I have been on Web Fields Like 2 Years. I Have Skills in
                     JavaScript, React.js, Redux, Next.js, HTML and CSS, Sass,
                     MatirialUI, Tailwind.css, Firebase And Still Learning New
@@ -25,20 +23,22 @@ const SectionFour = () => {
                 </div>
               </div>
               <div className="w-full bg-pro-blue rounded-md text-white flex justify-between flex-col">
-                <h1 className="text-4xl mt-1 font-extrabold text-center">
+                <h1 className=" text-2xl lg:text-4xl mt-1 font-extrabold text-center">
                   Contact Details
                 </h1>
                 <div className="px-16 pb-6 font-semibold">
                   <h5 className="conDtl">Name</h5>
-                  <p className="ml-20">={">"} : Mohammad Daud Gul</p>
+                  <p className="sm:ml-20">={">"} : Mohammad Daud Gul</p>
                   <h5 className="conDtl">Number </h5>
-                  <p className="ml-20">={">"} :+91-9012261447</p>
+                  <p className="sm:ml-20">={">"} :+91-9012261447</p>
                   <h5 className="conDtl">Email</h5>
-                  <p className="ml-20">={">"} : mohd.daudgul@gmail.com</p>
+                  <p className="sm:ml-20">={">"} : mohd.daudgul@gmail.com</p>
                   <h5 className="conDtl">Address</h5>
-                  <p className="ml-20">={">"} : Vidhiya House, Gujar Tola </p>
-                  <p className="ml-28">Rampur, Uttar Pradesh</p>
-                  <p className="ml-28">Pin 244901</p>
+                  <p className="sm:ml-20">
+                    ={">"} : Vidhiya House, Gujar Tola{" "}
+                  </p>
+                  <p className="sm:ml-28">Rampur, Uttar Pradesh</p>
+                  <p className="sm:ml-28">Pin 244901</p>
                 </div>
               </div>
             </div>

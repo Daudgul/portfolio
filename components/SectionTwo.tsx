@@ -17,11 +17,11 @@ const SectionTwo = () => {
         <div className="mainComponent">
           <div className="w-full h-full px-20 py-16 bg-pro-gray">
             <h1 className="mainHeading">My skills</h1>
-            <h6 className="my-6 font-bold text-2xl text-pro-blue">
+            <h6 className="my-6 font-bold md:text-2xl text-pro-blue">
               These are the main technologies I use to realise most of my
               projects.
             </h6>
-            <div className="grid grid-cols-3 gap-12 my-14 text-2xl font-bold">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 my-14 md:text-2xl font-bold">
               <div className="skills">
                 {" "}
                 <AiFillHtml5 className="text-gray-600 text-5xl" />{" "}

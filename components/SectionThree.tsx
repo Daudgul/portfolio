@@ -6,13 +6,13 @@ import { MdOutlineMobileFriendly } from "react-icons/md";
 
 const SectionThree = () => {
   return (
-    <section id="section-three" className="w-full">
+    <section id="section-three" className="w-full mx-auto">
       <div className="between"></div>
       <div className="mainComponent">
         <div className="bg-pro-gray pt-10 px-14 h-[40vh]">
           <h1 className="mainHeading">Projects </h1>
         </div>
-        <div className="pb-20 px-16">
+        <div className="pb-20 sm:px-16 px-4">
           <div className="card">
             <Link href="https://shopping-web-one.vercel.app/">
               <div className="subCard">
@@ -34,7 +34,7 @@ const SectionThree = () => {
                   <AiOutlineGithub />
                   <BsLaptop />
                 </div>
-                <h1 className="text-3xl leading-[45px] font-bold text-start px-8">
+                <h1 className="text-3xl  leading-[45px] font-bold text-start px-8">
                   Amazone Clone
                 </h1>
                 <h6 className=" text-gray-600font-semibold">
@@ -49,7 +49,7 @@ const SectionThree = () => {
                   <BsLaptop />
                   <MdOutlineMobileFriendly />
                 </div>
-                <h1 className="text-3xl leading-[45px] font-bold text-start px-8">
+                <h1 className="text-3xl  leading-[45px] font-bold text-start px-8">
                   Netflix Clone
                 </h1>
                 <h6 className=" text-gray-600font-semibold">
@@ -64,7 +64,7 @@ const SectionThree = () => {
                   <BsLaptop />
                   <MdOutlineMobileFriendly />
                 </div>
-                <h1 className="text-3xl leading-[45px] font-bold text-start px-8">
+                <h1 className="text-3xl  leading-[45px] font-bold text-start px-8">
                   To-Do List app{" "}
                 </h1>
                 <h6 className=" text-gray-600font-semibold">React.Js - MUI</h6>{" "}
