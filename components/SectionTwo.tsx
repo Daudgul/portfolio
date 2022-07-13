@@ -15,7 +15,7 @@ const SectionTwo = () => {
       <section id="section-two" className="w-full ">
         <div className="between"></div>
         <div className="mainComponent">
-          <div className="w-full h-full px-20 py-16 bg-pro-gray">
+          <div className="w-full h-full px-4 sm:px-20 py-16 bg-pro-gray">
             <h1 className="mainHeading">My skills</h1>
             <h6 className="my-6 font-bold md:text-2xl text-pro-blue">
               These are the main technologies I use to realise most of my

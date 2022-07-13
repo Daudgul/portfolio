@@ -53,7 +53,7 @@ const SectionOne = () => {
             </ul>
           </header>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-4 sm:gap-0 md:px-4 pb-6 rounded-sm">
-            <div className="w-full  bg-pro-gray flex flex-col items-start pl-3 lg:pl-6 lg:pr-2 justify-center space-y-5 relative">
+            <div className="w-full  bg-pro-gray flex flex-col items-start pl-3 lg:pl-6 lg:pr-2 justify-center space-y-5 py-4 relative">
               <div className="xBox top-[12px] md:top-5 md:-ml-[14px] -ml-[5px]"></div>
               <div className="yBox -top-3"></div>
               <h3 className=" text-xl lg:text-3xl text-gray-600 font-semibold">

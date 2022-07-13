@@ -26,7 +26,7 @@ const SectionFour = () => {
                 <h1 className=" text-2xl lg:text-4xl mt-1 font-extrabold text-center">
                   Contact Details
                 </h1>
-                <div className="px-16 pb-6 font-semibold">
+                <div className="sm:px-16 px-4 pb-6 font-semibold">
                   <h5 className="conDtl">Name</h5>
                   <p className="sm:ml-20">={">"} : Mohammad Daud Gul</p>
                   <h5 className="conDtl">Number </h5>
