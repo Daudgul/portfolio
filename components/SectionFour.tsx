@@ -22,23 +22,34 @@ const SectionFour = () => {
                   <button className="btn">download resume</button>
                 </div>
               </div>
-              <div className="w-full bg-pro-blue rounded-md text-white flex justify-between flex-col">
-                <h1 className=" text-2xl lg:text-4xl mt-1 font-extrabold text-center">
+              <div className="w-full bg-pro-blue rounded-md text-white flex justify-around flex-col">
+                <h1 className=" pt-2 text-2xl lg:text-4xl mt-1 font-extrabold text-center">
                   Contact Details
                 </h1>
                 <div className="sm:px-16 px-4 pb-6 font-semibold">
-                  <h5 className="conDtl">Name</h5>
-                  <p className="sm:ml-20">={">"} : Mohammad Daud Gul</p>
-                  <h5 className="conDtl">Number </h5>
-                  <p className="sm:ml-20">={">"} :+91-9012261447</p>
-                  <h5 className="conDtl">Email</h5>
-                  <p className="sm:ml-20">={">"} : mohd.daudgul@gmail.com</p>
-                  <h5 className="conDtl">Address</h5>
-                  <p className="sm:ml-20">
-                    ={">"} : Vidhiya House, Gujar Tola{" "}
-                  </p>
-                  <p className="sm:ml-28">Rampur, Uttar Pradesh</p>
-                  <p className="sm:ml-28">Pin 244901</p>
+                  <div className="flex mt-4">
+                    <h5 className="conDtl">Name</h5>
+                    <p className="pl-5"> : Mohammad Daud Gul</p>
+                  </div>
+                  <div className="flex mt-4">
+                    <h5 className="conDtl">Number </h5>
+                    <p> :+91-9012261447</p>
+                  </div>
+                  <div className="flex mt-4">
+                    <h5 className="conDtl">Email</h5>
+                    <p className="sm:pl-7 text-xs sm:text-base">
+                      {" "}
+                      : mohd.daudgul@gmail.com
+                    </p>
+                  </div>
+                  <div className="flex mt-4">
+                    <h5 className="conDtl">Address</h5>
+                    <div>
+                      <p>: Vidhiya House, Gujar Tola </p>
+                      <p>Rampur, Uttar Pradesh</p>
+                      <p>Pin 244901</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
